@@ -18,3 +18,4 @@ with open('E:/yangzengyan/Desktop/11.txt','w')as w:
         linelist = response.json()['data']
         for slist in linelist:
             w.write(slist['accession']+'\t'+slist['pos']+'\t'+slist['alleles']+'\t'+slist['maf']+'\t'+slist['cons'][0]+'\n')
+1111
